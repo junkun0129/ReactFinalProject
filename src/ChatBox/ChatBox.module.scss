@@ -1,0 +1,40 @@
+
+
+.chatRoom{
+    position: relative;
+
+    .messageBox{
+        position: absolute;
+        overflow:hidden;
+        background-color: black;
+        
+        width: 250px;
+        .sent{
+            color: white;
+            background-color: rgb(191, 201, 124);
+            width: 60%;
+            margin-top: 10px;
+            right: 10px;
+            margin-left: 30%;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        
+        .received{
+            color: white;
+            background-color: rgb(120, 175, 175);
+            width: 70%;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 15px;
+        }
+    }
+    
+    .submitBox{
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        bottom: 0px;
+        margin-top: 100px;
+    }
+}

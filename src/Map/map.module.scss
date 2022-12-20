@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    .iwatani{
+        position: absolute;
+       
+        .title{
+            background-color: #dedd9f;
+            position:inherit;
+            color: #22335d;
+            height: 200px;
+            width:500px;
+            border-bottom-right-radius: 200%;
+            border-bottom-left-radius: 100%;
+            padding-top: -105%;
+            padding-left: 5%;
+            top: 0;
+            z-index: 5;
+
+            .titleName{
+                font-size: 30px;
+                position: inherit;
+                top: 10px;
+                left: 20px;
+                background-color: #22335d;
+                color: #dedd9f;
+                padding: 20px;
+                
+                
+            }
+
+            .titleBorder{
+                font-size: 30px;
+                position: inherit;
+                top: 20px;
+                left: 30px;
+                border: 20px, solid, black;
+                border-width: 20px;
+                border: 3.5px solid #dedd9f;
+                background-color: rgba(0, 255, 255, 0);
+                width: 195px;
+                height: 55px;
+                
+            }
+            .userName{
+                position: inherit;
+                font-size: 50px;
+                right: 60px;
+                top: 20px;
+                
+            }
+            .menu{
+                
+                width: 350px;
+                height: 50px;
+                left: 40px;
+                top: 110px;
+                display: flex;
+                position: inherit;
+            }
+        }
+
+        .nabor{
+            //background-color: #22335d;
+            width: 250px;
+            height: 350px;
+            position: relative;
+            .naborName{
+                position: absolute;
+                top: 20px;
+                color:#22335d;
+            }
+            .naborButton{
+                position: absolute;
+                top: 20px;
+                right: 40px;
+            }
+            .chat{
+               position: absolute; 
+               top: 60px;
+            }
+        }
+    }
+    
+    
+    
+}

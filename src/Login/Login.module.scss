@@ -1,0 +1,70 @@
+
+body{
+    background-color: #dedd9f;
+    position: relative;
+
+
+    .map{
+        background-image: url("/map.png");
+        
+        width: 100%;
+        height: 713px;
+        opacity: 0;
+        position: absolute;
+    }
+
+    .loginpage{
+        background-color: #22335d;
+        width: 25%;
+        height: 300px;
+        margin-left: 35%;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        
+        .title{
+            color: #dedd9f;
+            text-align: center;
+        }
+
+        input{
+            width: 70%;
+            height: 30px;
+            margin-left: 15%;
+            background-color: #22335d;
+            color: white;
+            border: #dedd9f solid 5px;
+            border-radius: 5px;
+
+        }
+
+        button{
+            width: 20%;
+            height: 35px;
+            margin-left: 40%;
+            background-color: #dedd9f;
+            color: #22335d;
+            font-size: large;
+            border: #22335d;
+            border-radius: 2px;
+
+            &:hover{
+                border:#dedd9f solid;
+                color: #dedd9f;
+                background-color: #22335d;
+            }
+        }
+
+        .forget{
+            color: #dedd9f;
+            text-decoration: none;
+            text-align: center;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
