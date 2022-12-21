@@ -10,7 +10,7 @@ import {Routes, Route, Link} from "react-router-dom"
 import { useDispatch,useSelector } from "react-redux";
 import styles from "./Login.module.scss"
 import {motion} from "framer-motion";
-
+import { useNavigate } from "react-router-dom";
 
 
 export default function Login(){
@@ -25,6 +25,8 @@ export default function Login(){
 
     const dispatch = useDispatch();
     const userInfo = useSelector(state=>state);
+
+    const navigate = useNavigate();
 
     //question
     // why it is submitted even when I click input space
@@ -111,7 +113,8 @@ export default function Login(){
 
             
             setidFromSession(data.user.id);
-            window.open("https://react-final-project-ruby.vercel.app/map")
+            
+            navigate("/map");
         }
         
         console.log(data)
