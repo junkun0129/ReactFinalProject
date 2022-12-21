@@ -111,7 +111,7 @@ export default function Login(){
 
             
             setidFromSession(data.user.id);
-            window.open("http://localhost:5173/map")
+            window.open("https://react-final-project-ruby.vercel.app/map")
         }
         
         console.log(data)
