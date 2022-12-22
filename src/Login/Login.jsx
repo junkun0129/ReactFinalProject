@@ -145,8 +145,12 @@ export default function Login(){
            <input type="email" onChange={(e)=>emailOnChange(e)} placeholder = "email"/>
            <input type="password" onChange={(e)=>passwordOnChange(e)} placeholder = "password"/>
            <button onClick={()=>preLogin()}>login</button>
-           <Link to = "/forget" className={styles.forget}>Forget Password</Link>
-           {/* <button onClick={()=>userDataFetch()}>data go to store</button> */}
+
+           <div className={styles.options}>
+            <Link to = "/forget" className={styles.forget}>Forget Password</Link>
+            <Link to = "/signup" className={styles.signup}>sign up</Link>
+           </div>
+           
         </div>
           
             

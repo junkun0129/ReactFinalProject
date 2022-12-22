@@ -57,14 +57,30 @@ body{
             }
         }
 
-        .forget{
-            color: #dedd9f;
-            text-decoration: none;
-            text-align: center;
-
-            &:hover{
-                text-decoration: underline;
+        .options{
+            display: flex;
+            justify-content: space-around;
+            
+            .forget{
+                color: #dedd9f;
+                text-decoration: none;
+                text-align: center;
+                margin-left: -40px;
+                &:hover{
+                    text-decoration: underline;
+                }
             }
+            .signup{
+                color: #dedd9f;
+                text-decoration: none;
+                text-align: center;
+                margin-left: -70px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+
         }
+
     }
 }
